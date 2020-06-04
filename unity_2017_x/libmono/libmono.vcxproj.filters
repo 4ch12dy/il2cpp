@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="icalls\mscorlib\System.Diagnostics\StackFrame.cpp">
+      <Filter>icalls\mscorlib\System.Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="vm\StackTrace.cpp">
+      <Filter>vm</Filter>
+    </ClCompile>
+    <ClCompile Include="icalls\mscorlib\System.Diagnostics\StackTrace.cpp">
+      <Filter>icalls\mscorlib\System.Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="vm\PlatformInvoke.cpp">
+      <Filter>vm</Filter>
+    </ClCompile>
+    <ClCompile Include="icalls\mscorlib\System.Runtime.InteropServices\Marshal.cpp">
+      <Filter>icalls\mscorlib\System.Runtime.InteropServices</Filter>
+    </ClCompile>
+    <ClCompile Include="mono-stubs.cpp" />
+    <ClCompile Include="mono-initialization.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mono-api.h" />
+    <ClInclude Include="icalls\mscorlib\System.Diagnostics\StackFrame.h">
+      <Filter>icalls\mscorlib\System.Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="vm\StackTrace.h">
+      <Filter>vm</Filter>
+    </ClInclude>
+    <ClInclude Include="icalls\mscorlib\System.Diagnostics\StackTrace.h">
+      <Filter>icalls\mscorlib\System.Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="vm\PlatformInvoke.h">
+      <Filter>vm</Filter>
+    </ClInclude>
+    <ClInclude Include="icalls\mscorlib\System.Runtime.InteropServices\Marshal.h">
+      <Filter>icalls\mscorlib\System.Runtime.InteropServices</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="icalls">
+      <UniqueIdentifier>{805c5a1c-6253-4cf5-a16e-068f73cf5c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="icalls\mscorlib">
+      <UniqueIdentifier>{b3af04f9-03aa-4738-9c0f-ef5367216e83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="icalls\mscorlib\System.Diagnostics">
+      <UniqueIdentifier>{4471211f-3caf-4a61-bfba-32835a155616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vm">
+      <UniqueIdentifier>{96294ada-1adc-448a-9687-e51edf9b6e58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="icalls\mscorlib\System.Runtime.InteropServices">
+      <UniqueIdentifier>{52c64fef-2ba1-4231-8a93-0c85289054ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mono-api.def" />
+  </ItemGroup>
+</Project>
